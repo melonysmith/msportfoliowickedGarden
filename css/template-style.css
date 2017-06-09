@@ -208,15 +208,21 @@ p.logo strong {
 }
 #features h2 {
 	font-size: 1em;
-	color: #578CA9;
+	color: #3A404A;
 	font-weight: 600;
 	margin: 1.25em 0;
 	text-transform: uppercase;
 }
 #features p {
-	color: #3A404A;
+	color: #515659;
 	font-size: 0.85em;
 	line-height: 1.5em;
+}
+#features a {
+	color: #578CA9;
+}
+#features a:hover {
+	color: #F3CF55;
 }
 /* skills */
 #skills {
@@ -352,63 +358,18 @@ p.logo strong {
 	position: relative;
 	z-index: 2;
 }
-.tab-item {
-	background: #F3CF55 none repeat scroll 0 0;
-	margin-top: 1.25em;
-	padding: 1.25em 0;
+#our-work p {
+	color: #515659;
 }
-.our-work-container {
-	display: block;
-	height: 100%;
-	position: relative;
-}
-.our-work-text {
-	background: #00283a none repeat scroll 0 0;
-	bottom: 0;
-	display: block;
-	left: 0;
-	opacity: 0;
-	padding: 1.25em;
-	position: absolute;
-	right: 0;
-	text-align: center;
-	transition: opacity 0.20s linear 0s;
-	-o-transition: opacityd 0.20s linear 0s;
-	-ms-transition: opacity 0.20s linear 0s;
-	-moz-transition: opacity 0.20s linear 0s;
-	-webkit-transition: opacity 0.20s linear 0s;
-	width: 100%;
-}
-.our-work-container:hover > .our-work-text {
-	opacity: 1;
-}
-.our-work-text h4 {
-	color: #F3CF55;
-	font-size: 1em;
-	font-weight: 600;
-}
-.our-work-text p {
-	color: #F3CF55;
-	font-size: 0.8em;
-	opacity: 0.7;
-}
-.tab-nav {
-	display: table;
-}
-a.tab-label, a.tab-label:link, a.tab-label:visited {
-	background: #00283a none repeat scroll 0 0;
-	color: #F3CF55;
-	display: block;
-	font-size: 1em;
-	padding: 0.625em 1.25em;
+#our-work a {
+	color: #578CA9;
 	transition: all 0.20s linear 0s;
 	-o-transition: all 0.20s linear 0s;
 	-ms-transition: all 0.20s linear 0s;
 	-moz-transition: all 0.20s linear 0s;
 	-webkit-transition: all 0.20s linear 0s;
 }
-a.tab-label:hover, a.tab-label.active-btn {
-	background: #F3CF55;
+#our-work a:hover {
 	color: #F3CF55;
 }
 div.gallery {
@@ -472,24 +433,7 @@ form.customform button.color-btn {
 	text-align: center;
 	width: 26px;
 }
-input::placeholder {
-  color: #578CA9;
-}
-textarea::placeholder {
-  color: #578CA9;
-}
-/* footer */
-footer {
-	background: none repeat scroll 0 0 #3A404A;
-	padding: 3.5em 0;
-}
-footer p, footer a:visited, footer a, footer a:hover {
-	color: #6c7c84;
-	font-size: 0.8em;
-}
-footer a:hover {
-	color: #578CA9;
-}
+
 /* media queries */
 @media screen and (max-width: 768px) {
   header {

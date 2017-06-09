@@ -16,15 +16,16 @@
       <link rel="stylesheet" href="css/template-style.css">
       <!-- font -->
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-      <!-- javascript -->
+      <!-- jquery, javascript -->
       <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
       <script type="text/javascript" src="js/jquery-ui.min.js"></script>
       <script type="text/javascript" src="js/template-scripts.js"></script>
+      <script type='text/javascript' src='js/gen_validatorv31.js'></script>
    </head>
 
    <body class="size-1140">
 
-      <!-- topbar/nav -->
+      <!-- header, topbar, nav -->
       <header>
          <div id="topbar">
             <div class="line">
@@ -63,6 +64,8 @@
             </div>
          </nav>
       </header>
+
+      <!-- main content section -->
       <section>
 
          <!-- carousel -->
@@ -82,7 +85,7 @@
                           </div>
                         </div>
                         <h2>Melony Ann Smith</h2>
-                        <p>I am a graphic designer</p>
+                        <p>Web Designer &amp; Developer</p>
                      </div>
                   </div>
                </div>
@@ -100,7 +103,7 @@
                           </div>
                         </div>
                         <h2>Melony Ann Smith</h2>
-                        <p>I am a web developer</p>
+                        <p>Web Designer &amp; Developer</p>
                      </div>
                   </div>
                </div>
@@ -163,163 +166,151 @@
          <!-- projects -->
          <div id="our-work">
             <div class="line">
-                  <!-- wicked garden -->
-                  <div class="gallery">
-                    <a target="_blank" href="img/msdotnetwickedGarden.png">
-                      <img src="img/msdotnetwickedGarden.png" alt="Melony Smith Portfolio" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>Melony Smith
-                        <br />
-                        Wicked Garden
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript, jQuery, Responsee, Owl Carousel</p>
-                    </div>
-                  </div>
-                  <!-- logan -->
-                  <div class="gallery">
-                      <img src="img/msdotnetLogan.png" alt="Melony Smith Portfolio" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>Melony Smith
-                        <br />
-                        Logan
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript, jQuery</p>
-                    </div>
-                  </div>
-                  <!-- launch -->
-                  <div class="gallery">
-                      <img src="img/msdotnetLaunch.png" alt="Melony Smith Portfolio" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>Melony Smith
-                        <br />
-                        Launch
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript, jQuery, Bootstrap</p>
-                      <!-- <p><a href="http://melonysmith.net" target="_blank">View Here</a></p> -->
-                    </div>
-                  </div>
-                  <!-- plum crazy images -->
-                  <div class="gallery">
-                      <img src="img/pciJun01.png" alt="Plum Crazy Images" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>Plum Crazy Images
-                        <br />
-                        Coming 06/15/2017
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript, jQuery, Lightbox</p>
-                      <!-- <p><a href="http://plumcrazyimages.comt" target="_blank">View Here</a></p> -->
-                    </div>
-                  </div>
-                  <!-- plum crazy images -->
-                  <div class="gallery">
-                      <img src="img/pciCountdown.png" alt="Plum Crazy Images" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>Plum Crazy Images
-                        <br />
-                        Countdown
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript</p>
-                      <p><a href="http://plumcrazyimages.com" target="_blank">View Here</a></p>
-                    </div>
-                  </div>
-                  <!-- heart and soul images -->
-                  <div class="gallery">
-                      <img src="img/has01.png" alt="Heart &amp; Soul Images" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>Heart &amp; Soul Images
-                        <br />
-                        Current
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript, jQuery, Fancybox, Bootstrap</p>
-                      <p><a href="http://heartandsoulimages.com" target="_blank">View Here</a></p>
-                    </div>
-                  </div>
-                  <!-- MARC -->
-                  <div class="gallery">
-                      <img src="img/marc02.png" alt="McLennan Animal Rescue Coalition" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>MARC Pets
-                        <br />
-                        Coming Soon
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3</p>
-                    </div>
-                  </div>
-                  <!-- MARC -->
-                  <div class="gallery">
-                      <img src="img/marc01.png" alt="McLennan Animal Rescue Coalition" width="300" height="200">
-                    </a>
-                    <div class="desc">
-                      <h6>MARC Pets
-                        <br />
-                        Current
-                        <br />
-                      </h6>
-                      <p>HTML5, CSS3, Javascript, jQuery, Bootstrap</p>
-                      <p><a href="http://marcpets.org" target="_blank">View Here</a></p>
-                    </div>
-                  </div>
+              <!-- wicked garden -->
+              <div class="gallery">
+                <a target="_blank" href="img/msdotnetwickedGarden.png">
+                  <img src="img/msdotnetwickedGarden.png" alt="Melony Smith Portfolio" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>Melony Smith
+                    <br />
+                    Wicked Garden
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript, jQuery, Responsee, Owl Carousel</p>
+                </div>
+              </div>
+              <!-- logan -->
+              <div class="gallery">
+                  <img src="img/msdotnetLogan.png" alt="Melony Smith Portfolio" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>Melony Smith
+                    <br />
+                    Logan
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript, jQuery</p>
+                </div>
+              </div>
+              <!-- launch -->
+              <div class="gallery">
+                  <img src="img/msdotnetLaunch.png" alt="Melony Smith Portfolio" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>Melony Smith
+                    <br />
+                    Launch
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript, jQuery, Bootstrap</p>
+                </div>
+              </div>
+              <!-- plum crazy images -->
+              <div class="gallery">
+                  <img src="img/pciJun01.png" alt="Plum Crazy Images" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>Plum Crazy Images
+                    <br />
+                    Coming 06/15/2017
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript, jQuery, Lightbox</p>
+                  <!-- <p><a href="http://plumcrazyimages.comt" target="_blank">View Here</a></p> -->
+                </div>
+              </div>
+              <!-- plum crazy images -->
+              <div class="gallery">
+                  <img src="img/pciCountdown.png" alt="Plum Crazy Images" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>Plum Crazy Images
+                    <br />
+                    Countdown
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript</p>
+                  <p><a href="http://plumcrazyimages.com" target="_blank">View Here</a></p>
+                </div>
+              </div>
+              <!-- heart and soul images -->
+              <div class="gallery">
+                  <img src="img/has01.png" alt="Heart &amp; Soul Images" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>Heart &amp; Soul Images
+                    <br />
+                    Current
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript, jQuery, Fancybox, Bootstrap</p>
+                  <p><a href="http://heartandsoulimages.com" target="_blank">View Here</a></p>
+                </div>
+              </div>
+              <!-- MARC -->
+              <div class="gallery">
+                  <img src="img/marc02.png" alt="McLennan Animal Rescue Coalition" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>MARC Pets
+                    <br />
+                    Coming Soon
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3</p>
+                </div>
+              </div>
+              <!-- MARC -->
+              <div class="gallery">
+                  <img src="img/marc01.png" alt="McLennan Animal Rescue Coalition" width="300" height="200">
+                </a>
+                <div class="desc">
+                  <h6>MARC Pets
+                    <br />
+                    Current
+                    <br />
+                  </h6>
+                  <p>HTML5, CSS3, Javascript, jQuery, Bootstrap</p>
+                  <p><a href="http://marcpets.org" target="_blank">View Here</a></p>
+                </div>
+              </div>
             </div>
          </div>
 
-         <!-- contact -->
+         <!-- contact, footer -->
          <div id="contact">
             <div class="line">
                <div class="margin">
                   <div class="s-12 m-12 l-3 hide-m hide-s margin-bottom right-align">
                     <img src="img/contact.jpg" alt="">
                   </div>
-                  <div class="s-12 m-12 l-4 margin-bottom right-align">
-                     <h3>Melony Smith
-                     <br />
-                     MelonySmith.net</h3>
+                  <div class="s-12 m-6 l-3 margin-bottom right-align">
+                     <h3>Melony Smith</h3>
                      <address>
                         <p><strong>State:</strong> Nebraska</p>
                         <p><strong>Country:</strong> United States</p>
-                        <p><strong>E-mail:</strong> smith.melonya@gmail.com</p>
-                        <p><strong>Phone:</strong> 1(402)601-8783</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:smith.melonya@gmail.com">smith.melonya@gmail.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:1-402-601-8783">1(402)601-8783</a></p>
                      </address>
                      <br />
                   </div>
-                  <div class="s-12 m-12 l-5">
-                    <h3>contact form</h3>
-                    <form class="customform" action="">
-                      <div class="s-12"><input name="" placeholder="Your e-mail" title="Your e-mail" type="text" /></div>
-                      <div class="s-12"><input name="" placeholder="Your name" title="Your name" type="text" /></div>
-                      <div class="s-12"><textarea placeholder="Your message" name="" rows="5"></textarea></div>
-                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit">Submit</button></div>
-                    </form>
+                  <div class="s-12 m-6 l-3 margin-bottom right-align">
+                    <h3>Info</h3>
+                    <p>Copyright 2017 MelonySmith.net</p>
+                    <br />
                   </div>
-               </div>
-            </div>
-         </div>
-      </section>
+                  <div class="s-12 m-6 l-3 margin-bottom right-align">
+                    <h3>Images</h3>
+                    <p><a href="http://www.pexels.com" title="Pexels" target="_blank">Pexels</a></p>
+                  <br />
+                  </div>
+                </div>
+             </div>
+          </div>
+       </div>
 
-      <!-- footer -->
-      <footer>
-         <div class="line">
-            <div class="s-12 l-6">
-               <p>Copyright 2017 Melony Smith &amp; MelonySmith.net</p>
-            </div>
-            <div class="s-12 l-6">
-              <a class="right" href="http://www.pexels.com" title="Pexels" target="_blank">Pexels</a>
-            </div>
-         </div>
-      </footer>
+      </section>
 
       <!-- javascript -->
       <script type="text/javascript" src="js/responsee.js"></script>
@@ -356,5 +347,5 @@
       </script>
 
    </body>
-   
+
 </html>
