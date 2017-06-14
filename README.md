@@ -12,6 +12,7 @@
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 - [Simple Line Icons](http://simplelineicons.com/)
 - [MFG Labs Icons](https://mfglabs.github.io/mfglabs-iconset/)
+- [MFG Labs Icons](https://mfglabs.github.io/mfglabs-iconset/)
 - [Atom IDE](https://atom.io/)
 
 
